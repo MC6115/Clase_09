@@ -8,7 +8,6 @@
   <body>
     <main>
       <h1>Formulario para adoptar una mascota</h1>
-
       <form action="">
         <!-- Vamos a dividir el formulario 2 partes
           1: Los datos de la mascota
@@ -42,7 +41,22 @@
         </fieldset>
         <fieldset>
           <legend>Datos de la persona</legend>
+          <div>
+            <div>
+                <label for="nombre-persona">Nombre persona</label>
+                <input type="text" placeholder="nombreCliente" id="nombre-persona"/>
+            </div>
+            <div>
+                <label for="tipo-documento">Tipo documento</label>
+                <input type="text" placeholder="DNI" id="tipo-documento">
+            </div>
+            <div>
+                <label for="nro-documento">Nro Documento</label>
+                <input type="text" placeholder="Ingresar DNI" id ="nro-documento">
+            </div>
+          </div>
         </fieldset>
+        <button type="submit">Enviar datos</button>
       </form>
     </main>
     <!-- <form action="">
